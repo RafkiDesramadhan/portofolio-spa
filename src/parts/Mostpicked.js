@@ -9,7 +9,7 @@ export default function Mostpicked() {
             <div className="zoom-effect">
               <div className="box">
                 <img
-                  src="http://localhost:3000/images/1.jpg"
+                  src="images/1.jpg"
                   alt="1"
                   className="img-fluid img-hover"
                   style={{ height: 400, width: "100%" }}
@@ -32,7 +32,7 @@ export default function Mostpicked() {
             <div className="zoom-effect">
               <div className="box">
                 <img
-                  src="http://localhost:3000/images/2.jpg"
+                  src="images/2.jpg"
                   alt="2"
                   className="img-fluid img-hover"
                   style={{ height: 400, width: "100%" }}
@@ -55,7 +55,7 @@ export default function Mostpicked() {
             <div className="zoom-effect">
               <div className="box">
                 <img
-                  src="http://localhost:3000/images/3.jpg"
+                  src="images/3.jpg"
                   alt="3"
                   className="img-fluid img-hover"
                   style={{ height: 400, width: "100%" }}
@@ -80,7 +80,7 @@ export default function Mostpicked() {
             <div className="zoom-effect">
               <div className="box">
                 <img
-                  src="http://localhost:3000/images/4.jpg"
+                  src="images/4.jpg"
                   alt="4"
                   className="img-fluid img-hover"
                   style={{ height: 400, width: "100%" }}
@@ -103,7 +103,7 @@ export default function Mostpicked() {
             <div className="zoom-effect">
               <div className="box">
                 <img
-                  src="http://localhost:3000/images/5.jpg"
+                  src="images/5.jpg"
                   alt="5"
                   className="img-fluid img-hover"
                   style={{ height: 400, width: "100%" }}
@@ -126,7 +126,7 @@ export default function Mostpicked() {
             <div className="zoom-effect">
               <div className="box">
                 <img
-                  src="http://localhost:3000/images/6.jpg"
+                  src="images/6.jpg"
                   alt="6"
                   className="img-fluid img-hover"
                   style={{ height: 400, width: "100%" }}
@@ -151,7 +151,7 @@ export default function Mostpicked() {
             <div className="zoom-effect">
               <div className="box">
                 <img
-                  src="http://localhost:3000/images/7.jpg"
+                  src="images/7.jpg"
                   alt="7"
                   className="img-fluid img-hover"
                   style={{ height: 400, width: "100%" }}
@@ -174,7 +174,7 @@ export default function Mostpicked() {
             <div className="zoom-effect">
               <div className="box">
                 <img
-                  src="http://localhost:3000/images/8.jpg"
+                  src="images/8.jpg"
                   alt="8"
                   className="img-fluid img-hover"
                   style={{ height: 400, width: "100%" }}
@@ -197,7 +197,7 @@ export default function Mostpicked() {
             <div className="zoom-effect">
               <div className="box">
                 <img
-                  src="http://localhost:3000/images/9.jpg"
+                  src="images/9.jpg"
                   alt="9"
                   className="img-fluid img-hover"
                   style={{ height: 400, width: "100%" }}

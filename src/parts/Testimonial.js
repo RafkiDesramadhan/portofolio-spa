@@ -24,7 +24,7 @@ export default function Testimonial() {
               <div className="row">
                 <div className="col-12 col-md-6 offset-md-3 text-center">
                   <img
-                    src="http://localhost:3000/images/people4.jpg"
+                    src="images/people4.jpg"
                     alt="picture"
                     className="img-fluid img-thumbnail rounded-circle"
                     style={{ height: 150, width: 150 }}
@@ -50,7 +50,7 @@ export default function Testimonial() {
               <div className="row">
                 <div className="col-12 col-md-6 offset-md-3 text-center">
                   <img
-                    src="http://localhost:3000/images/people10.jpg"
+                    src="images/people10.jpg"
                     alt="picture"
                     className="img-fluid img-thumbnail rounded-circle"
                     style={{ height: 150, width: 150 }}
@@ -76,7 +76,7 @@ export default function Testimonial() {
               <div className="row">
                 <div className="col-12 col-md-6 offset-md-3 text-center">
                   <img
-                    src="http://localhost:3000/images/people11.jpg"
+                    src="images/people11.jpg"
                     alt="picture"
                     className="img-fluid img-thumbnail rounded-circle"
                     style={{ height: 150, width: 150 }}
