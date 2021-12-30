@@ -1,4 +1,5 @@
 import React from "react";
+import { Rotate, Bounce } from "react-reveal";
 
 export default function Testimonial() {
   return (
@@ -16,29 +17,35 @@ export default function Testimonial() {
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
-      <h1 className="outline_text text-center">Testimonial</h1>
+      <Bounce left>
+        <h1 className="outline_text text-center">Testimonial</h1>
+      </Bounce>
       <div className="carousel-inner">
         <div className="carousel-item active">
           <div>
             <div className="container p-5">
               <div className="row">
                 <div className="col-12 col-md-6 offset-md-3 text-center">
-                  <img
-                    src="images/people4.jpg"
-                    alt="picture1"
-                    className="img-fluid img-thumbnail rounded-circle"
-                    style={{ height: 150, width: 150 }}
-                  />
-                  <p className="text-testimonial mb-5">
-                    Innovative brewing methods and our cofeee is sourced from
-                    various parts of the globe and are roasted to perfection.
-                  </p>
-                  <p className="text-primary mb-0 text-name-testimonial">
-                    Mesica Chouhan
-                  </p>
-                  <p className="lead text-name-two-testimonial">
-                    Mesica Chouhan
-                  </p>
+                  <Bounce right duration={2000}>
+                    <img
+                      src="images/people4.jpg"
+                      alt="picture1"
+                      className="img-fluid img-thumbnail rounded-circle"
+                      style={{ height: 150, width: 150 }}
+                    />
+                  </Bounce>
+                  <Rotate>
+                    <p className="text-testimonial mb-5">
+                      Innovative brewing methods and our cofeee is sourced from
+                      various parts of the globe and are roasted to perfection.
+                    </p>
+                    <p className="text-primary mb-0 text-name-testimonial">
+                      Mesica Chouhan
+                    </p>
+                    <p className="lead text-name-two-testimonial">
+                      Mesica Chouhan
+                    </p>
+                  </Rotate>
                 </div>
               </div>
             </div>
